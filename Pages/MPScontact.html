@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <title>Контакты</title>
+  <link rel="shortcut icon" href="Images/Icon.gif" type="favicon/ico">
+  <link rel="stylesheet" type="text/css" href="Css/Footer.css">
+  <link rel="stylesheet" type="text/css" href="Css/Footer-menu.css">
+  <link rel="stylesheet" type="text/css" href="Css/Contact.css">
+  <link rel="stylesheet" type="text/css" href="Css/Header.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="JS/Scroll.js"></script>
+  <script src="JS/Form.js"></script>
+</head>
+
+<body style="margin: 0px; background-color: rgb(44%, 44%, 44%, 0.15)">
+
+  <header>
+
+    <div class="header-menu-wrapper">
+
+      <div class="header-menu-contacts">
+        <div class="header-contact-item">
+          <a href="#" title="Search">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="SVG/Search1.svg#search"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="header-contact-item">
+          <a href="#" title="Email">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="SVG/Search1.svg#email"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="header-menu">
+        <nav>
+          <span>
+            <a href="MPS.html" alt="Главная" title="Главная">
+              Главная</a>
+          </span>
+          <span>
+            <a href="MPSprojects.html" alt="Проекты" title="Проекты">
+              Проекты</a>
+          </span>
+          <span>
+            <a class="header-menu-item-active" href="MPScontact.html" alt="Контакты" title="Контакты">
+              Контакты</a>
+          </span>
+          <span>
+            <a href="#" alt="Поиск" title="Поиск">
+              Поиск</a>
+          </span>
+        </nav>
+      </div>
+
+      <div class="header-menu-logo">
+        <svg class="header-menu-logo-svg" viewBox="0 0 16000 9000" xmlns="http://www.w3.org/2000/svg">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="SVG/Logo2.svg#MPS"></use>
+        </svg>
+      </div>
+
+    </div>
+
+  </header>
+
+  <article>
+
+    <div class="contact-main"></div>
+
+    <div class="contact-main-container">
+      <div class="contact-main-main">
+        <h2>Открытое акционерное общество «Минскпромстрой»</h2>
+        <h3>Генеральный директор</h3>
+        Дашкевич Олег Владимирович
+        <p>220034, г. Минск, пер. Войсковой, 12</p>
+        <p>Режим работы:</p>
+        понедельник &ndash; четверг
+        <br>с 8&ndash;45 до 17&ndash;45 , обед с 13&ndash;00 до 13&ndash;45
+        <br>пятница
+        <br>с 8&ndash;45 до 16-05, обед с 13&ndash;00 до 13&ndash;20
+        <br>суббота, воскресенье &ndash; выходной
+        <p></p>
+
+        <div>
+          <a href="tel:+375XXXXXXXXXX" class="PhoneLink">
+            Приемная: +375 (XX) XXX-XX-XX</a>
+        </div>
+        <div>
+          <a href="tel:+375XXXXXXXXX" class="PhoneLink">Приемная факс: +375 (XX) XXX-XX-XX</a>
+        </div>
+        <div>
+          <a href="tel:+375XXXXXXXXX" class="PhoneLink">Бухгалтерия: +375 (XX) XXX-XX-XX</a>
+        </div>
+        <div>
+          <a href="tel:+375XXXXXXXXX" class="PhoneLink">Отдел кадров: +375 (XX) XXX-XX-XXX</a>
+        </div>
+        <div>
+          <a href="tel:+375XXXXXXXXX" class="PhoneLink">Аренда помещений: +375 (XX) XXX-XX-XX</a>
+        </div>
+        <div>
+          <a href="tel:+375XXXXXXXXX" class="PhoneLink">Аренда и продажа машиномест: +375 (XX) XXX-XX-XX</a>
+        </div>
+        <div>
+          <a href="tel:+375XXXXXXXXX" class="PhoneLink">Отдел договоров и смет: +375 (XX) XXX-XX-XX</a>
+        </div>
+        <div>
+          <a href="mailto:info@XXX.XX" class="PhoneLink">info@XXX.XX</a>
+        </div>
+      </div>
+
+      <div class="contact-map">
+        <script type="text/javascript" charset="utf-8" async
+          src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa8895e5134f9e5d718363b33b14029e3bcc70914221dffb13738d210860b164d&amp;width=100%25&amp;height=429&amp;lang=ru_RU&amp;scroll=false"></script>
+      </div>
+
+      <div class="contact-form">Напишите нам</div>
+
+      <form id="form" class="form" onsubmit="return validateForm()" method="get"
+        action="http://fe.it-academy.by/TestForm.php">
+        <div class="form-title">
+          <h4>
+            Тема вашего сообщения
+          </h4>
+        </div>
+        <div class="form-select">
+          <select name="email-subject">
+            <option value="book-journey">Новое строительство</option>
+            <option value="rent-hotel">Реконструкция</option>
+            <option value="recruitment">Генеральный подряд</option>
+            <option value="other">Другое</option>
+          </select>
+        </div>
+        <div class="form-title">
+          <h4>
+            Контактные данные
+          </h4>
+        </div>
+        <div class="form-input-container">
+          <div class="form-input left-column">
+            <input type="text" name="user-first-name" value="" placeholder="Имя">
+          </div>
+          <div class="form-input right-column">
+            <input type="text" name="user-last-name" value="" placeholder="Фамилия">
+          </div>
+          <div class="form-input left-column">
+            <input type="email" name="user-email" value="" placeholder="Email">
+          </div>
+          <div class="form-input right-column">
+            <input type="tel" name="user-phone" value="" placeholder="Номер телефона">
+          </div>
+          <div class="form-input">
+            <select name="user-country">
+              <option value="" disabled="" selected="">Страна</option>
+              <option value="Belarus">Belarus</option>
+              <option value="Russia">Russian Federation</option>
+              <option value="Ukraine">Ukraine</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-title">
+          <h4>
+            Ваше сообщение
+          </h4>
+        </div>
+        <div class="form-input-container">
+          <div class="form-message">
+            <textarea name="message" placeholder="Сообщение"></textarea>
+          </div>
+        </div>
+        <div class="form-input-container">
+          <div id="form-submit" class="form-input">
+            <input type="submit">
+          </div>
+        </div>
+      </form>
+    </div>
+  </article>
+
+  <footer>
+
+    <a href="#" class="scroll-up" title="Вверх" style="display: none;">Scroll</a>
+    <script type="text/javascript" src="JS/Scroll.js"></script>
+
+    <div class="footer-menu-wrapper">
+
+      <div class="footer-menu-contacts">
+        <div id="twitter" class="footer-contact-item">
+          <a href="https://twitter.com" target="_blank" title="Twitter">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="SVG/Search1.svg#twitter"></use>
+            </svg>
+          </a>
+        </div>
+        <div id="facebook" class="footer-contact-item">
+          <a href="https://www.facebook.com" target="_blank" title="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="SVG/Search1.svg#facebook"></use>
+            </svg>
+          </a>
+        </div>
+        <div id="gmail" class="footer-contact-item">
+          <a href="https://plus.google.com" target="_blank" title="Gmail">
+            <svg xmlns="http://www.w3.org/2000/svg">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="SVG/Search1.svg#gmail"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>&copy; 2022 Artem Ermolovich, IT-Academy</p>
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

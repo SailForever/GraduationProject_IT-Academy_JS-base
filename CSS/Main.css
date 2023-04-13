@@ -1,0 +1,307 @@
+.service-main {
+  font-family: "Calibri", serif;
+  color: #121111;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-right: 41%;
+  margin-left: 41%;
+  text-align: center;
+  padding-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.service-plane-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.service-img {
+  flex: 0 0 200px;
+  margin: 2px;
+  background-color: rgb(44%, 44%, 44%, 0.02);
+}
+
+.service-plane {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.service-plane h2 {
+  font-family: "Corbel", serif;
+  color: #999bbf;
+  font-size: 30px;
+}
+
+.service-plane p {
+  font-family: "corbel", serif;
+  color: #121111;
+  font-size: 18px;
+}
+
+.article {
+  padding-top: 1em;
+}
+
+.cover-image-index {
+  background: url("../Image/dvorec-nezavisimosti.jpg") 0 0 no-repeat;
+  background-size: 100%;
+  margin-top: -40px;
+  height: 600px;
+}
+
+.cover-image-attractions {
+  background: url("../images/attractions/attraction_2.jpg") 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.cover-image-characters {
+  background: url("../images/characters/character_2.jpeg") 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.cover-image-contact {
+  background: url("../images/contacts/contact_2.jpg") 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.cover-image-history {
+  background: url("../images/history/history_2.jpg") 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.cover-image-dining {
+  background: url("../images/dining/dining_2.jpg") 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.cover-image-shops {
+  background: url("../images/shops/shop_2.jpg") 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.cover-image-header {
+  color: #292929;
+  font-size: 60px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgb(255 255 255 / 80%);
+  padding-top: 120px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.attractions-header {
+  color: #ff92ec;
+  text-align: left;
+  margin: 0;
+}
+
+.characters-header {
+  color: #fefcc1;
+  text-align: left;
+  margin: 0;
+}
+
+.history-header {
+  color: #fefcc1;
+  text-align: left;
+  margin: 0;
+}
+
+.contact-header {
+  color: #fefcc1;
+  text-align: left;
+  margin: 0;
+}
+
+.dining-header {
+  color: #feaf14;
+  text-align: right;
+  margin: 0;
+}
+
+.shops-header {
+  color: #fefcc1;
+  text-align: left;
+  margin: 0;
+}
+
+.cover-image-content {
+  color: #464547;
+  padding-bottom: 70px;
+  font-size: 1.625em;
+  font-family: arial, sans-serif;
+  text-align: right;
+  margin-top: -10px;
+  padding-right: 10px;
+}
+
+.attractions-content {
+  color: #ffffff;
+  text-align: left;
+}
+
+.characters-content {
+  color: #ffffff;
+  text-align: left;
+}
+
+.history-content {
+  color: #ffffff;
+  text-align: left;
+}
+
+.contact-content {
+  color: #ffffff;
+  text-align: left;
+}
+
+.dining-content {
+  color: #ffffff;
+  text-align: right;
+}
+
+.shops-content {
+  color: #ffffff;
+  text-align: left;
+}
+
+.cover-image-bottom {
+  background: url("../images/home/image_2.jpg") 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.cover-image-content-bottom {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fdfdfd;
+  font-size: 1.625em;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.cover-image-content-bottom p {
+  padding: 0;
+  margin: 0;
+}
+
+.article-content p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #464547;
+  font-size: 1.2em;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.article-content p img {
+  padding-right: 15px;
+  float: left;
+}
+
+.article-content span {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #464547;
+  font-size: 1.3em;
+  text-align: justify;
+  padding-right: 20px;
+}
+
+@media all and (max-width: 1225px) {
+  .article {
+    padding-top: 50px;
+  }
+
+  .cover-image-header {
+    font-size: 3em;
+  }
+
+  .cover-image-content {
+    padding-bottom: 10px;
+    font-size: 1em;
+  }
+
+  .cover-image-content-bottom {
+    padding-bottom: 10px;
+    font-size: 1em;
+  }
+}
+
+@media all and (max-width: 870px) {
+  .cover-image-header {
+    padding-top: 10px;
+    padding-right: 0px;
+    font-size: 1.9em;
+    color: #464547;
+  }
+
+  .attractions-header {
+    color: #ff92ec;
+  }
+
+  .characters-header {
+    color: #fefcc1;
+  }
+
+  .history-header {
+    color: #fefcc1;
+  }
+
+  .contact-header {
+    color: #fefcc1;
+  }
+
+  .dining-header {
+    color: #feaf14;
+  }
+
+  .shops-header {
+    color: #fefcc1;
+  }
+
+  .cover-image-bottom .cover-image-header {
+    color: #f7f2f9;
+  }
+
+  .cover-image-content {
+    display: none;
+  }
+
+  .cover-image-content-bottom {
+    display: none;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .article-content p img {
+    display: block;
+    width: 225px;
+    padding: 0;
+    float: none;
+  }
+}
+
+@media all and (max-width: 960px) {
+  .service-plane-menu {
+    display: block;
+  }
+}
+
+@media all and (max-width: 960px) {
+  .service-img {
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 960px) {
+  .service-main {
+    text-align: center;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+@media all and (max-width: 1225px) {
+  .cover-image-index {
+    display: none;
+  }
+}

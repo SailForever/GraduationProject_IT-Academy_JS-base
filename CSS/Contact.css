@@ -1,0 +1,198 @@
+.contact-main {
+  background: url("../Image/BorovayaSlide1.jpg") 0 0 no-repeat;
+  background-size: 100%;
+  height: 400px;
+}
+
+.contact-main-container {
+  padding-top: 50px;
+}
+
+.contact-main-main {
+  padding-left: 30px;
+}
+
+.contact-map {
+  margin-top: 40px;
+}
+
+.contact-form {
+  font-family: 'Arial', serif;
+  color: #121111;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-right: 35%;
+  margin-left: 35%;
+  text-align: center;
+  padding-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-top: 70px;
+}
+
+.form {
+  margin-top: 40px;
+}
+
+.form-title {
+  padding: 20px 40px;
+  text-transform: uppercase;
+  color: #424143;
+  font-size: 1.625em;
+}
+
+.form-title h4 {
+  padding: 0;
+  margin: 0;
+}
+
+.form-select {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.form select {
+  border: #929193 solid 1px;
+  height: 48px;
+  color: #464547;
+  font-size: 18px;
+  width: 100%;
+  outline-color: #929193;
+  text-indent: 7px;
+}
+
+.form-input-container {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.form-input {
+  display: inline-block;
+  width: 49%;
+  padding-bottom: 20px;
+}
+
+.form-input:last-child {
+  padding-bottom: 0;
+}
+
+.right-column {
+  float: right;
+}
+
+.left-column {
+  float: left;
+}
+
+.form-input input {
+  width: 100%;
+  border: #929193 solid 1px;
+  height: 43px;
+  color: #464547;
+  font-size: 18px;
+  outline-color: #929193;
+  text-indent: 10px;
+}
+
+.error-message {
+  color: #ff0000 !important;
+}
+
+.form-message,
+#form-submit {
+  padding-bottom: 20px;
+}
+
+#form-submit input {
+  text-indent: 0;
+  width: 223px;
+}
+
+.form-message textarea {
+  height: 143px;
+  width: 100%;
+  border: #929193 solid 1px;
+  color: #464547;
+  font-size: 18px;
+  outline-color: #929193;
+  text-indent: 10px;
+}
+
+.form-input input:focus,
+.form-message textarea:focus {
+  outline-color: #929193;
+}
+
+.form-input input::-webkit-input-placeholder,
+.form-message textarea::-webkit-input-placeholder {
+  color: #464547;
+}
+
+.form-input input::-moz-placeholder,
+.form-message textarea::-webkit-input-placeholder {
+  color: #464547;
+}
+
+.form-input input:-moz-placeholder,
+.form-message textarea:-moz-placeholder {
+  color: #464547;
+}
+
+.form-input input:-ms-input-placeholder,
+.form-message textarea:-ms-input-placeholder {
+  color: #464547;
+}
+
+.PhoneLink {
+  font-size: 16px;
+  line-height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #202020;
+  font-weight: bold;
+}
+
+@media all and (max-width: 870px) {
+  .form-select {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .form-title {
+    padding: 20px 20px;
+  }
+
+  .form-input-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .form-input {
+    display: block;
+    width: 100%;
+  }
+
+  .right-column {
+    float: none;
+  }
+
+  .left-column {
+    float: none;
+  }
+}
+
+@media all and (max-width: 905px) {
+  .contact-main {
+    display: none;
+  }
+
+  .contact-main-container {
+    padding-top: 80px;
+  }
+
+  .contact-form {
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+    font-size: 26px;
+  }
+}

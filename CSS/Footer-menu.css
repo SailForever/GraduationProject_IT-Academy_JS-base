@@ -1,0 +1,120 @@
+.footer-menu-wrapper {
+  margin-bottom: -0.3em;
+  display: inline-block;
+  height: 55px;
+  width: 100%;
+  background-color: #464547;
+}
+
+.footer-menu-contacts {
+  padding-left: 30px;
+  padding-top: 14px;
+  padding-right: 35px;
+  display: inline-block;
+  float: right;
+  text-align: center;
+}
+
+.footer-contact-item {
+  width: 65px;
+  display: inline-block;
+  float: left;
+}
+
+.footer-contact-item svg {
+  width: 26px;
+  height: 26px;
+}
+
+.copyright {
+  float: left;
+  display: inline-block;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ccc;
+  margin-left: 50px;
+}
+
+.scroll-up {
+  width: 82px;
+  height: 60px;
+  position: fixed;
+  bottom: 60px;
+  right: 0;
+  display: none;
+  text-indent: -9999px;
+  background: url('http://fe.it-academy.by/Sites/0038606/DiplomErmolovich/Image/Scroll-up.png') no-repeat;
+  z-index: 99999;
+}
+
+.scroll-up:hover {
+  opacity: 1;
+}
+
+@media all and (max-width: 1225px) {
+  .footer-menu-contacts {
+    height: 40px;
+    text-align: inherit;
+    display: block;
+    float: none;
+    background-color: #464547;
+    position: relative;
+  }
+
+  .footer-contact-item {
+    position: absolute;
+    top: 50%;
+    margin-top: -13px;
+  }
+
+  #gmail {
+    left: 56%;
+    margin-left: -13px;
+  }
+
+  #facebook {
+    left: 28%;
+    margin-left: -13px;
+  }
+
+  #twitter {
+    left: 84%;
+    margin-left: -13px;
+  }
+
+  .footer-menu {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 0px;
+    display: block;
+    float: none;
+    background-color: #464547;
+    border-top: #808080 solid 1px;
+    border-bottom: #808080 solid 1px;
+    text-align: center;
+  }
+
+  .footer-menu span:last-child::after {
+    display: none;
+  }
+
+  .copyright {
+    display: block;
+    float: none;
+    background-color: #464547;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 0px;
+  }
+}
+
+
+@media all and (max-width: 400px) {
+  .footer-menu span:nth-child(even):after {
+    display: none;
+  }
+
+  .footer-menu span:last-child {
+    display: none;
+  }
+}

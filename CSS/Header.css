@@ -1,0 +1,118 @@
+.header-menu-wrapper {
+  height: 70px;
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  background-color: #ffffff;
+  min-width: 300px;
+  box-shadow: 0 2px 3px 0 rgb(0 0 0 / 15%);
+}
+
+.header-menu-contacts {
+  border-left: #808080 solid 1px;
+  padding-left: 50px;
+  margin-top: 26px;
+  margin-left: 28px;
+  display: inline-block;
+  float: right;
+}
+
+.header-contact-item {
+  width: 65px;
+  height: 24px;
+  display: inline-block;
+  float: right
+}
+
+.header-contact-item svg {
+  width: 24px;
+  height: 24px;
+}
+
+.header-menu {
+  display: inline-block;
+  float: right;
+  margin-top: 30px;
+  padding-right: 24px
+}
+
+
+.header-menu span {
+  padding-left: 20px;
+}
+
+.header-menu a {
+  text-decoration: none;
+  font-size: 1.125em;
+  line-height: 1.125em;
+  color: #464547;
+  font-family: sans-serif;
+  text-transform: uppercase
+}
+
+.header-menu a:hover {
+  color: red;
+  transition-duration: 500ms;
+}
+
+.header-menu-logo {
+  margin-left: 50px;
+  display: inline-block;
+  float: left;
+}
+
+.header-menu-logo svg {
+  shape-rendering: geometricPrecision;
+  text-rendering: geometricPrecision;
+  image-rendering: optimizeQuality;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  width: calc(100% + 260px);
+  margin: -5.2em -0.5em -1em -7.5em;
+  pointer-events: none;
+}
+
+.header-menu-item-active {
+  color: red !important;
+  pointer-events: none;
+}
+
+@media all and (max-width: 1225px) {
+  .header-menu-narrow {
+    display: inline-block;
+    float: left;
+    background-color: #00b5d1;
+  }
+
+  .header-menu-contacts {
+    border-left: none;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+}
+
+@media all and (max-width: 905px) {
+  .header-menu-logo {
+    display: none;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .header-menu-contacts {
+    display: none;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .header-menu span:nth-child(even) {
+    display: none;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .header-menu {
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+}

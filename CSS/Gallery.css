@@ -1,0 +1,693 @@
+.genpodryad {
+  padding-top: 1em;
+}
+
+.genpodryad-img {
+  background: url("../Image/Genpodryad/Genpodryad0.jpg") 0 0 no-repeat;
+  background-size: 100%;
+  margin-top: -30px;
+}
+
+.genpodryad-img-text {
+  color: #2e2e2e;
+  font-size: 2.8em;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 100px;
+  text-align: left;
+  padding-left: 10px;
+  height: 400px;
+}
+
+.genpodryad-text {
+  margin-left: 60px;
+}
+
+.geodetic {
+  padding-top: 1em;
+}
+
+.geodetic-img {
+  background: url("../Image/Geodez/Geodez0.jpg") 0 0 no-repeat;
+  background-size: 100%;
+  margin-top: -30px;
+}
+
+.geodetic-img-text {
+  color: #f2f0f0;
+  font-size: 3em;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 200px;
+  text-align: left;
+  padding-left: 10px;
+  height: 300px;
+}
+
+.geodetic-text {
+  margin-left: 60px;
+}
+
+.hilti {
+  padding-top: 1em;
+}
+
+.hilti-img {
+  background: url("../Image/Hilti/Hilti0.jpg") 0 0 no-repeat;
+  background-size: 100%;
+  margin-top: -30px;
+}
+
+.hilti-img-text1 {
+  color: #9e1313;
+  font-size: 3em;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 120px;
+  text-align: left;
+  padding-right: 10px;
+}
+
+.hilti-img-text2 {
+  color: black;
+  font-weight: 500;
+  padding-bottom: 50px;
+  font-size: 1.625em;
+  text-align: left;
+  padding-right: 10px;
+}
+
+.Innovation {
+  padding-top: 1em;
+}
+
+.Innovation-img {
+  background: url("../Image/Innovation/Innov0.jpg") 0 0 no-repeat;
+  background-size: 100%;
+  margin-top: -30px;
+}
+
+.Innovation-img-text1 {
+  color: #fdfdfd;
+  font-size: 4em;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 80px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.Innovation-img-text2 {
+  color: black;
+  padding-bottom: 50px;
+  font-size: 1.625em;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.laborotory {
+  padding-top: 1em;
+}
+
+.laborotory-img {
+  background: url("../Image/Laborotory/Laborotory0.jpg") 0 0 no-repeat;
+  background-size: 100%;
+  margin-top: -60px;
+}
+
+.laborotory-img-text {
+  color: #262626;
+  font-size: 2.8em;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 150px;
+  text-align: right;
+  padding-left: 10px;
+  height: 350px;
+}
+
+.laborotory-text {
+  margin-left: 60px;
+}
+
+.projects {
+  padding-top: 1em;
+}
+
+.projects-img {
+  background: url("../Image/VogSlide1.jpeg") 0 0 no-repeat;
+  background-size: 100%;
+  margin-top: -30px;
+}
+
+.projects-img-text1 {
+  color: #fdfdfd;
+  font-size: 4em;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 80px;
+  text-align: left;
+  padding-right: 10px;
+}
+
+.projects-img-text2 {
+  color: black;
+  padding-bottom: 50px;
+  font-size: 1.625em;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.cover-image-attractions {
+  background: url("../images/attractions/attraction_2.jpg") 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.cover-image-header-attractions {
+  font-family: "Oswald", sans-serif;
+  color: #ff92ec;
+  font-size: 5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 50px;
+  text-align: left;
+  padding-right: 10px;
+  margin: 0;
+}
+
+.cover-image-content-attractions {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  padding-bottom: 50px;
+  font-size: 1.625em;
+  text-align: left;
+  padding-right: 10px;
+}
+
+@media all and (max-width: 1280px) {
+
+  .article-attractions {
+    padding-top: 50px;
+  }
+
+  .cover-image-header-attractions {
+    font-size: 3em;
+
+  }
+
+  .cover-image-content-attractions {
+    padding-bottom: 10px;
+    font-size: 1em;
+  }
+
+  .lb-album {
+    width: 650px;
+  }
+}
+
+@media all and (max-width: 815px) {
+  .cover-image-content-attractions {
+    display: none;
+  }
+}
+
+@media all and (max-width: 690px) {
+
+  .cover-image-header-attractions {
+    padding-top: 10px;
+    padding-right: 0px;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .cover-image-content-attractions {
+    display: none;
+  }
+
+  .lb-album {
+    width: 300px;
+  }
+
+  .lb-album li {
+    float: none;
+    margin: 0;
+  }
+
+  .lb-album li>a span {
+    left: 10px;
+  }
+
+  .lb-overlay>div {
+    width: 400px;
+    margin: 10px auto 0px auto;
+  }
+
+  .lb-overlay div h3,
+  .lb-overlay div p {
+    padding: 0;
+    text-align: center;
+    float: none;
+    border: none;
+    height: 30px;
+    display: inline-block;
+  }
+
+  .lb-overlay:target {
+    width: auto;
+    height: auto;
+    bottom: 0px;
+    right: 0px;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 180px;
+  }
+
+  .lb-overlay:target img {
+    width: 100%;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #19181a;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.lb-album {
+  width: 945px;
+  margin: 0 auto;
+  font-family: 'Oswald Regular', sans-serif;
+}
+
+.lb-album li {
+  float: left;
+  margin: 5px;
+  position: relative;
+}
+
+.lb-album li>a,
+.lb-album li>a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.lb-album li>a {
+  width: 280px;
+  height: 272px;
+  position: relative;
+  padding: 10px;
+  -webkit-box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158, 111, 86, 0.3) inset;
+  -moz-box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158, 111, 86, 0.3) inset;
+  box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158, 111, 86, 0.3) inset;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.lb-album li>a span {
+  position: absolute;
+  width: 280px;
+  height: 272px;
+  top: 10px;
+  left: 10px;
+  text-align: center;
+  line-height: 150px;
+  color: rgba(66, 65, 67, 0.8);
+  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
+  font-size: 24px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  /* internet explorer */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+  /*IE8*/
+  background: rgba(0, 181, 219, 0.26);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(0, 181, 219, 0.26) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 255, 255, 0.56)), color-stop(100%, rgba(0, 181, 219, 0.26)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(0, 181, 219, 0.26) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(0, 181, 219, 0.26) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(0, 181, 219, 0.26) 100%);
+  background: radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(0, 181, 219, 0.26) 100%);
+  -webkit-transition: opacity 0.3s linear;
+  -moz-transition: opacity 0.3s linear;
+  -o-transition: opacity 0.3s linear;
+  -ms-transition: opacity 0.3s linear;
+  transition: opacity 0.3s linear;
+}
+
+.lb-album li>a:hover span {
+  opacity: 1;
+  filter: alpha(opacity=99);
+  /* internet explorer */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+  /*IE8*/
+}
+
+.lb-overlay {
+  width: 0px;
+  height: 0px;
+  position: fixed;
+  overflow: hidden;
+  left: 0px;
+  top: 0px;
+  padding: 0px;
+  z-index: 101;
+  text-align: center;
+  background: rgba(96, 125, 139, 0.62);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(96, 125, 139, 1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 255, 255, 0.56)), color-stop(100%, rgba(96, 125, 139, 1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(96, 125, 139, 1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(96, 125, 139, 1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(96, 125, 139, 1) 100%);
+  background: radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(96, 125, 139, 1) 100%);
+}
+
+.lb-overlay>div {
+  position: relative;
+  color: rgba(48, 47, 49, 0.8);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  /* internet explorer */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+  /*IE8*/
+  width: 550px;
+  margin: 10px auto 0px auto;
+  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
+  -webkit-transition: opacity 0.3s linear 1.3s;
+  -moz-transition: opacity 0.3s linear 1.3s;
+  -o-transition: opacity 0.3s linear 1.3s;
+  -ms-transition: opacity 0.3s linear 1.3s;
+  transition: opacity 0.3s linear 1.3s;
+}
+
+.lb-overlay div h3,
+.lb-overlay div p {
+  padding: 0px 20px;
+  width: 200px;
+  height: 60px;
+}
+
+.lb-overlay div h3 {
+  font-size: 22px;
+  float: left;
+  text-align: right;
+  border-right: 1px solid rgba(50, 50, 51, 0.4);
+}
+
+.lb-overlay div h3 span,
+.lb-overlay div p {
+  font-size: 16px;
+  font-family: "Oswald Regular", sans-serif;
+}
+
+.lb-overlay div h3 span {
+  display: block;
+}
+
+.lb-overlay div p {
+  text-align: left;
+  float: left;
+  width: 260px;
+}
+
+.lb-overlay img {
+  /* height: 100%; For Opera max-height does not seem to work */
+  max-height: 100%;
+  position: relative;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+}
+
+.lb-overlay:target {
+  width: auto;
+  height: auto;
+  bottom: 0px;
+  right: 0px;
+  padding: 80px 100px 120px 100px;
+}
+
+.lb-overlay:target img {
+  -webkit-animation: fadeInScale 1.2s ease-in-out;
+  -moz-animation: fadeInScale 1.2s ease-in-out;
+  -o-animation: fadeInScale 1.2s ease-in-out;
+  -ms-animation: fadeInScale 1.2s ease-in-out;
+  animation: fadeInScale 1.2s ease-in-out;
+}
+
+.lb-overlay:target a.lb-close,
+.lb-overlay:target>div {
+  opacity: 1;
+  filter: alpha(opacity=99);
+  /* internet explorer */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+  /*IE8*/
+}
+
+@-webkit-keyframes fadeInScale {
+  0% {
+    -webkit-transform: scale(0.6);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+
+  0% {
+    -moz-transform: scale(0.6);
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fadeInScale {
+  0% {
+    -moz-transform: scale(0.6);
+    opacity: 0;
+  }
+
+  100% {
+    -moz-transform: scale(1);
+    opacity: 1;
+  }
+
+  0% {
+    -moz-transform: scale(0.6);
+    opacity: 0;
+  }
+}
+
+@-o-keyframes fadeInScale {
+  0% {
+    -o-transform: scale(0.6);
+    opacity: 0;
+  }
+
+  100% {
+    -o-transform: scale(1);
+    opacity: 1;
+  }
+
+  0% {
+    -moz-transform: scale(0.6);
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes fadeInScale {
+  0% {
+    -ms-transform: scale(0.6);
+    opacity: 0;
+  }
+
+  100% {
+    -ms-transform: scale(1);
+    opacity: 1;
+  }
+
+  0% {
+    -moz-transform: scale(0.6);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeInScale {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  0% {
+    -moz-transform: scale(0.6);
+    opacity: 0;
+  }
+}
+
+/*
+    100% Height for Opera as the max-height seems to be ignored, not optimal for large screens
+    http://bricss.net/post/11230266445/css-hack-to-target-opera
+  */
+x:-o-prefocus,
+.lb-overlay img {
+  height: 100%;
+}
+
+@media all and (max-width: 1280px) {
+  .lb-album {
+    width: 650px;
+  }
+}
+
+@media all and (max-width: 690px) {
+  .lb-album {
+    width: 300px;
+  }
+
+  .lb-album li {
+    float: none;
+    margin: 0;
+  }
+
+  .lb-album li>a span {
+    left: 10px;
+  }
+
+  .lb-overlay>div {
+    width: 400px;
+    margin: 10px auto 0px auto;
+  }
+
+  .lb-overlay div h3,
+  .lb-overlay div p {
+    padding: 0;
+    text-align: center;
+    float: none;
+    border: none;
+    height: 30px;
+    display: inline-block;
+  }
+
+  .lb-overlay:target {
+    width: auto;
+    height: auto;
+    bottom: 0px;
+    right: 0px;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 180px;
+  }
+
+  .lb-overlay:target img {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .lb-album {
+    width: 210px;
+  }
+
+  .lb-album li {
+    float: none;
+    margin: 0;
+  }
+
+  .lb-album li>a {
+    width: 180px;
+    height: 180px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .lb-album li>a span {
+    width: 180px;
+    height: 180px;
+    padding-left: 0;
+    padding-right: 0;
+    left: 0;
+  }
+
+  .lb-overlay:target img {
+    width: 100%;
+  }
+
+  .lb-overlay>div {
+    width: 265px;
+    margin: 10px auto 0px auto;
+  }
+}
+
+@media all and (max-width: 970px) {
+
+  .projects,
+  .Innovation,
+  .hilti,
+  .genpodryad,
+  .laborotory,
+  .geodetic {
+    display: none;
+  }
+}
+
+@media all and (min-width: 970px) {
+
+  .projects-img-text3,
+  .innovation-img-text3,
+  .hilti-img-text3,
+  .genpodryad-img-text3,
+  .laborotory-img-text3,
+  .geodetic-img-text3 {
+    display: none;
+  }
+}
+
+@media all and (max-width: 970px) {
+
+  .projects-img-text3,
+  .innovation-img-text3,
+  .hilti-img-text3,
+  .genpodryad-img-text3,
+  .laborotory-img-text3,
+  .geodetic-img-text3 {
+    font-size: 2em;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 100px;
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 970px) {
+  .genpodryad-text {
+    margin-left: 5px;
+  }
+}
+
+@media all and (max-width: 970px) {
+  .laborotory-text {
+    margin-left: 5px;
+  }
+}
+
+@media all and (max-width: 970px) {
+  .geodetic-text {
+    margin-left: 5px;
+  }
+}

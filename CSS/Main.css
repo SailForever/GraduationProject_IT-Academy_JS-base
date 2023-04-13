@@ -43,40 +43,10 @@
 }
 
 .cover-image-index {
-  background: url("../Image/dvorec-nezavisimosti.jpg") 0 0 no-repeat;
+  background: url("../Images/dvorec-nezavisimosti.jpg") 0 0 no-repeat;
   background-size: 100%;
   margin-top: -40px;
   height: 600px;
-}
-
-.cover-image-attractions {
-  background: url("../images/attractions/attraction_2.jpg") 0 0 no-repeat;
-  background-size: 100%;
-}
-
-.cover-image-characters {
-  background: url("../images/characters/character_2.jpeg") 0 0 no-repeat;
-  background-size: 100%;
-}
-
-.cover-image-contact {
-  background: url("../images/contacts/contact_2.jpg") 0 0 no-repeat;
-  background-size: 100%;
-}
-
-.cover-image-history {
-  background: url("../images/history/history_2.jpg") 0 0 no-repeat;
-  background-size: 100%;
-}
-
-.cover-image-dining {
-  background: url("../images/dining/dining_2.jpg") 0 0 no-repeat;
-  background-size: 100%;
-}
-
-.cover-image-shops {
-  background: url("../images/shops/shop_2.jpg") 0 0 no-repeat;
-  background-size: 100%;
 }
 
 .cover-image-header {

@@ -42,7 +42,7 @@
   right: 0;
   display: none;
   text-indent: -9999px;
-  background: url('http://fe.it-academy.by/Sites/0038606/DiplomErmolovich/Image/Scroll-up.png') no-repeat;
+  background: url('../Images/Scroll-up.png') no-repeat;
   z-index: 99999;
 }
 
